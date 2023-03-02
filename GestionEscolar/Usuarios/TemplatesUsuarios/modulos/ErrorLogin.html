@@ -1,0 +1,5 @@
+{% if "errorMail" in request.GET %}
+    <p>No se encontro el correo</p>
+{% elif "errorPass" in request.GET %}
+    <p>contraseña Incorrecta</p>
+{% endif %}

@@ -1,0 +1,7 @@
+{% include 'modulos/ErrorLogin.html' %}
+<h1>Este es el login</h1>
+<form action="" method="post">{% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Iniciar Sesión">
+</form>
+<a href="registrar"> Registrarse</a>

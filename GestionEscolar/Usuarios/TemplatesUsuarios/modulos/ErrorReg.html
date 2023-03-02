@@ -1,0 +1,5 @@
+{% if "errorMail" in request.GET %}
+    <p>El correo introducido ya esta registrado</p>
+{% elif "errorNombre" in request.GET %}
+    <p>El Nombre introducido ya esta registrado</p>
+{% endif %}
